@@ -10,3 +10,7 @@ int secondDigit = number % 10; //здесь получаем остаток от
 
 if (firstDigit > secondDigit) Console.WriteLine($"Наибольшая цифра числа равна {firstDigit}");
 else Console.WriteLine ($"Наибольшая цифра числа равна {secondDigit}");
+
+//встроенный метод Math.
+int result = Math.Max(firstDigit, secondDigit);
+Console.WriteLine($"Результат = {result}");
