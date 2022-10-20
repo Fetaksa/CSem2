@@ -12,12 +12,10 @@ Console.WriteLine($"Случайное трехзначное число => {num
 // int thirdDigit = number % 10;
 // int newDigit = firstDigit * 10 + thirdDigit;
 
-
-
-int DelSecondDigit(int number)
+int DelSecondDigit(int num)
 {
-    int firstDigit = number / 100;
-    int thirdDigit = number % 10;
+    int firstDigit = num / 100;
+    int thirdDigit = num % 10;
     
     return firstDigit*10 + thirdDigit;
 }
